@@ -43,6 +43,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:headerLayout="@drawable/header_image"
+        app:headerLayout="@layout/nav_header"
         app:menu="@menu/activity_main_drawer_items"/>
 </androidx.drawerlayout.widget.DrawerLayout>
