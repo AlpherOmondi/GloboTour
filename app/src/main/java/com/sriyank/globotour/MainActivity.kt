@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-//
+//Function closes the drawer in case its open
     override fun onBackPressed() {
         if (drawerLayout.isOpen) {
             drawerLayout.close()
