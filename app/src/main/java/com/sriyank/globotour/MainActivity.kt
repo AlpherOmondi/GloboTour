@@ -6,6 +6,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.navigation.NavigationView
 
@@ -35,7 +36,10 @@ class MainActivity : AppCompatActivity() {
         //Define AppBarConfiguration:Connect drawerlayout with navigation component
        val appBarConfiguration = AppBarConfiguration(navController.graph, drawerLayout)
 
+        //Connect Toolbar with navController
+        toolbar.setupWithNavController(navController, appBarConfiguration)
 
-        //
+        //Connect NavigationView with navcontroller
+        navigationView.setupWithNavController(navController)
     }
 }

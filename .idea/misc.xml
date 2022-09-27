@@ -9,6 +9,8 @@
         <entry key="..\:/Users/alpha/AndroidStudioProjects/GloboTour/app/src/main/res/drawable/ic_home.xml" value="0.152" />
         <entry key="..\:/Users/alpha/AndroidStudioProjects/GloboTour/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1865" />
         <entry key="..\:/Users/alpha/AndroidStudioProjects/GloboTour/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/alpha/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_city_list.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/alpha/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_favorite.xml" value="0.16927083333333334" />
         <entry key="..\:/Users/alpha/AndroidStudioProjects/GloboTour/app/src/main/res/layout/nav_header.xml" value="0.25" />
         <entry key="..\:/Users/alpha/AndroidStudioProjects/GloboTour/app/src/main/res/menu/activity_main_drawer_items.xml" value="0.25" />
       </map>
